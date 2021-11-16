@@ -1,0 +1,96 @@
+/* Reseteo Estilos por defecto del navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+
+.logotipo{
+margin: 10px;
+}
+
+.nav{
+display: flex;
+flex-direction: row;
+background-color: #FED41E;
+height: 75px;
+justify-content:space-around;
+}
+
+.lista_nav{
+padding: 25px;
+font-size: 25px;
+display: flex;
+gap:40px;
+list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: #0E0E0E;
+}
+
+body{
+    background-image: url(/Imagenes/Simpsons-Zoom-Background.jpg);
+    background-repeat: round;
+}
+
+/* Main */
+
+.main{
+    white-space: pre-wrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+.records {
+    float: left;
+    padding: 30px;
+    border-radius: 40px;
+    background-color:rgb(12, 125, 195, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-top: 45px;
+    height: fit-content;
+}
+
+.historia{
+    padding: 30px;
+    background-color:rgb(12, 125, 195, 0.8);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-radius: 40px;
+    margin: 45px;
+    height: fit-content;
+}
+
+.vivo{
+    background-color:rgb(12, 125, 195, 0.8);
+    margin: 45px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 30px;
+    height: fit-content;
+}
+
+.historia_imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagen_vieja{
+    width: 50%;
+}
+
+.imagen_nueva{
+    width: 40%;
+}

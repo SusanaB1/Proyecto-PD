@@ -11,12 +11,15 @@
 margin: 10px;
 }
 
-.nav{
+.navegacion{
     display: flex;
     flex-direction: row;
     background-color: #FED41E;
     height: 75px;
     justify-content:space-around;
+    border-bottom-color: #DE4648;
+    border-bottom-style: inset;
+    font: initial;
 }
 
 .lista_nav{
@@ -33,7 +36,7 @@ a {
 }
 
 .fondo_inicio{
-    background-image: url(Simpsons-Zoom-Background.jpg);
+    background-image: url(/Imagenes/Simpsons-Zoom-Background.jpg);
     background-repeat: round;
 }
 
@@ -49,7 +52,7 @@ a {
     float: left;
     padding: 30px;
     border-radius: 40px;
-    background-color:rgba(59, 156, 247, 0.7);
+    background-color:rgba(90, 168, 172, 0.9);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +63,7 @@ a {
 
 .historia{
     padding: 30px;
-    background-color:rgb(59, 156, 247, 0.7);
+    background-color:rgb(90, 168, 172, 0.9);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -71,7 +74,7 @@ a {
 }
 
 .vivo{
-    background-color:rgb(59, 156, 247, 0.7);
+    background-color:rgb(90, 168, 172, 0.9);
     margin: 45px;
     width: 30%;
     display: flex;
@@ -102,10 +105,11 @@ footer{
     background-color: darkslategrey;
     color: white;
     display: flex;
-    padding: 12px;
+    padding: 12px 0px 70px 12px;
     text-align: center;
     display: block;
     height: 70px;
+    font:initial;
 }
 
 .footer_lista{
@@ -120,18 +124,39 @@ footer{
 
 
 .pred_nubes{
-    background-image:url(Background.jpg);
+    background-image:url(/Imagenes/Background.jpg);
     background-repeat:round;
 }
 
 
 .fondo_pred{
     background-color: rgba(90, 168, 172, 0.8);
-    margin: 12px 12px 12px 12px;
-    padding: 12px;
-    border-radius: 10px;
+    margin: 17px;
+    padding: 15px;
+    border-radius: 25px;
     font-size: 20px;
+    text-align: center;
+}
+
+.pred_subtitulo{
+    text-decoration: underline;
+    padding-bottom: 7px;
+}
+
+.ima_pred{
+    padding: 10px;
 }
 
 
+/*TEMPORADAS*/
 
+
+.container h2{
+    margin: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    margin-bottom: 20px;
+}

@@ -134,7 +134,7 @@ footer{
 .fondo_pred{
     background-color: rgba(90, 200, 204, 0.8);
     margin: 17px;
-    padding: 15px;
+    padding: 20px;
     border-radius: 25px;
     font-size: 20px;
     text-align: center;
@@ -191,6 +191,23 @@ footer{
 .temp1_tabla td, th{
     padding: 10px;
   border: 1px solid #0E0E0E;
+}
+
+/*Temporada 2*/
+
+.temp2_sin{
+    display: flex;
+    text-align: left;
+    margin: 20px;
+}
+
+.temp2_sin p{
+    margin-left: 20px;
+}
+
+.temp2_sin img{
+    width: 444px;
+    height: 600px;
 }
 
 /* Media queries*/
